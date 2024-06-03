@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Kaninsidan</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">KANINKOMPISARNA</h1>
+      <nav class="navbar">
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+        <ul class="menu">
+          <li><a href="#">Start</a></li>
+          <li><a href="#">Kaniner</a></li>
+          <li><a href="#">Om oss</a></li>
+          <li><a href="#">Kontakt</a></li>
+        </ul>
+      </nav>
+      <script>
+        function toggleMenu() {
+          var menu = document.querySelector(".menu");
+          menu.classList.toggle("active");
+        }
+      </script>
+    </header>
+    <main>
+      <div class="container">
+        <div class="section section1">
+          <div class="section1Text">
+            <h1>Varmt välkommen till vårt kanincommunity!</h1>
+            <p>
+              Här kan du upptäcka spännande fakta om kaniner och deras
+              beteenden. Utforska våra artiklar och bilder och lär dig mer om
+              dessa underbara varelser.
+            </p>
+            <p>
+              Om du älskar kaniner lika mycket som vi gör, varför inte gå med i
+              vår kaninklubb? Som medlem får du även möjligheten att presentera
+              just din underbara pälsbeklädda vän för resten av detta
+              community.<br /><br />
+              Klicka på knappen nedan för att bli medlem!
+            </p>
+            <button class="button">Bli medlem</button>
+          </div>
+          <img src="images/Bunny1.webp" alt="Vit gullig kanin" />
+        </div>
+        <div class="section section2">
+          <img src="images/Bunny2.webp" alt="Två kaniner" />
+          <div class="section1Text">
+            <h2>Våra medlemmar</h2>
+            <p>
+              Lär känna några av våra tusentals pälsbeklädda medlemmar lite
+              närmre.<br />
+              Spana in både bilder och berättelser om dessa underbara varelser i
+              vårt Kaningalleri.<br /><br />
+              Kanske blir du även inspirerad till att skicka in berättelsen om
+              just din fyrtassade bästa vän?
+            </p>
+          </div>
+        </div>
+
+        <div class="section">
+          <h2>Kaningalleri</h2>
+          <p>
+            Kolla in några av våra fantastiska medlemmar här! Vilken kanin vill
+            du läsa mer om först? Klicka på bilderna för att läsa känna dem
+            bättre.
+          </p>
+          <br />
+          <div class="bunnyGrid">
+            <a href=""><img src="images/Bunny4.webp" alt="Kanin i tekopp" /></a>
+            <a href=""><img src="images/Bunny3.jpeg" alt="Nyfiken kanin" /></a>
+            <a href=""><img src="images/Bunny5.jpeg" alt="Kanin äter" /></a>
+            <a href=""
+              ><img src="images/Bunny6.webp" alt="Två kaniner gosar"
+            /></a>
+            <a href=""
+              ><img src="images/Bunny11.jpeg" alt="Vit fluffig kanin"
+            /></a>
+            <a href=""><img src="images/Bunny9.jpeg" alt="Dvärgvädur" /></a>
+          </div>
+        </div>
+        <div class="section">
+          <h2>Om Oss</h2>
+          <p>Lite information om vår kaninklubb och vår kärlek till kaniner.</p>
+          <p>
+            Vi är en grupp kaninälskare som älskar att dela vår passion för
+            kaniner med andra. Vår kaninklubb har funnits i flera år och vi är
+            engagerade i att hjälpa kaniner och främja kaninvård.
+          </p>
+        </div>
+        <div class="section">
+          <h2>Kontakt</h2>
+          <p>
+            Kontakta oss om du har frågor eller förslag. Vi älskar att höra från
+            våra besökare.
+          </p>
+          <p class="email">
+            Du kan nå oss på följande e-postadress:
+            <a href="mailto:kontakt@kaninsidan.se">kontakt@kaninsidan.se</a>
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer>&copy; 2024 Kaninsidan</footer>
+  </body>
+</html>
